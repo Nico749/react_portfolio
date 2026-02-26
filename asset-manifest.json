@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/react_portfolio/static/css/main.ac04edb3.css",
-    "main.js": "/react_portfolio/static/js/main.689657d6.js",
+    "main.css": "/react_portfolio/static/css/main.ab882cfe.css",
+    "main.js": "/react_portfolio/static/js/main.268c4733.js",
+    "static/media/Event_finder.png": "/react_portfolio/static/media/Event_finder.46a70c095b4614a0b87d.png",
     "static/media/Resume_Pasqualini.pdf": "/react_portfolio/static/media/Resume_Pasqualini.e78e054b9a0cf9930b04.pdf",
+    "static/media/pet_homepage.png": "/react_portfolio/static/media/pet_homepage.2536316a79d1dd8fbdd8.png",
     "static/media/nicoshop.png": "/react_portfolio/static/media/nicoshop.a2dd995ecab5fbd05856.png",
     "static/media/CovidAnalysys.png": "/react_portfolio/static/media/CovidAnalysys.055bfb2cd82535ce1071.png",
     "static/media/personal-photo-modified.png": "/react_portfolio/static/media/personal-photo-modified.8183df70d2b3e4c2cb40.png",
@@ -10,11 +12,11 @@
     "static/media/Screenshot_sql.png": "/react_portfolio/static/media/Screenshot_sql.69439ae0f5c62f9cf3e4.png",
     "static/media/FinancialAna.png": "/react_portfolio/static/media/FinancialAna.29973b1a681b4e8384e1.png",
     "index.html": "/react_portfolio/index.html",
-    "main.ac04edb3.css.map": "/react_portfolio/static/css/main.ac04edb3.css.map",
-    "main.689657d6.js.map": "/react_portfolio/static/js/main.689657d6.js.map"
+    "main.ab882cfe.css.map": "/react_portfolio/static/css/main.ab882cfe.css.map",
+    "main.268c4733.js.map": "/react_portfolio/static/js/main.268c4733.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac04edb3.css",
-    "static/js/main.689657d6.js"
+    "static/css/main.ab882cfe.css",
+    "static/js/main.268c4733.js"
   ]
 }

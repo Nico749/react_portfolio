@@ -2,12 +2,37 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 3rem;
 }
 
-*{
-  background-color: #5b6362;
+.home-page {
+  background:
+    radial-gradient(circle at 50% -10%, rgba(37, 172, 168, 0.26), transparent 35%),
+    #3f4748;
+}
+
+.home-image-frame {
+  border-radius: 999px;
+  border: 3px solid rgba(178, 232, 232, 0.45);
+  padding: 0.35rem;
+  box-shadow: 0 18px 36px rgba(0, 0, 0, 0.32);
+}
+
+.home-image {
+  border-radius: 999px;
+}
+
+.home-title {
+  color: #eef7f8;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-shadow: 0 0 26px rgba(0, 212, 195, 0.25);
 }
 
 .home-subtitle {
   text-align: center;
+  color: #c9d4d6;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-size: 1rem;
 }

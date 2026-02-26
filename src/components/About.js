@@ -6,14 +6,15 @@ import '../styles/PortfolioContainer.css'
 
 export default function About() {
   return (
-    <div>
-      <h1 id="tit" className='lineUp'>ABOUT</h1>
+    <div className="page-shell">
+      <h1 className="page-title lineUp">ABOUT</h1>
+      <p className="page-subtitle">Background, training, and the path into data analytics.</p>
 
-      <section className="hero is-fullheight has-background-black ">
+      <section className="hero is-fullheight about-hero">
 
         <div className=" hero-body">
           <div className="columns">
-            <div className="column is-6 is-offset-3 has-text-white is-size-5">
+            <div className="column is-8 is-offset-2 about-copy has-text-white is-size-5">
               Hi! I'm Nico and I am a Data Analyst.
               Even if I have always been interested in coding and data, my background is a bit uncommon
               because during the first years of university I studied economics and then I graduated from University of Bologna in 2018 with a

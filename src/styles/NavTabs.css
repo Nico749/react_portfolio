@@ -1,20 +1,101 @@
-/* *{
-    background-color:#4b4545;
-    
-} */
-
-li{
-    display: inline-block;
-     
+.navbar {
+  background-color: #3a4344;
+  border-bottom: 1px solid rgba(130, 195, 206, 0.28);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.22);
+  position: sticky;
+  top: 0;
+  z-index: 30;
 }
 
-@media(max-width:1023px){
-    li{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-         
-    }
-     
+.navbar-menu,
+.navbar-start,
+.navbar-brand {
+  background-color: #3a4344;
 }
 
+.navbar-menu.is-active {
+  background-color: #3a4344;
+}
+
+.navbar-start ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background: transparent;
+}
+
+.navbar-item {
+  color: #e6eff1 !important;
+  background-color: #5b6362;
+  border-radius: 0 0 10px 10px;
+  margin-right: 0.35rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.navbar-burger {
+  background-color: #3a4344;
+  color: #e6eff1;
+  border-radius: 10px;
+  margin: 0.4rem;
+  transition: background-color 160ms ease, transform 160ms ease;
+}
+
+.navbar-burger:hover {
+  background-color: #4c5c5f;
+}
+
+.navbar-burger.is-active {
+  background-color: #1aaaed;
+  transform: scale(1.03);
+}
+
+.navbar-burger span {
+  height: 2px;
+}
+
+@media (max-width: 1023px) {
+  .navbar-brand {
+    min-height: 3.35rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 0.3rem;
+  }
+
+  .navbar-menu {
+    background-color: #3a4344;
+    margin: 0;
+    padding: 0.4rem 0.5rem 0.55rem;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    backdrop-filter: none;
+  }
+
+  .navbar-menu.is-active {
+    background-color: #3a4344;
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+
+  .navbar-item {
+    width: 100%;
+    margin: 0.2rem 0 0;
+    border-radius: 10px;
+    justify-content: center;
+  }
+}
+
+li {
+  display: inline-block;
+}
+
+@media (max-width: 1023px) {
+  li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

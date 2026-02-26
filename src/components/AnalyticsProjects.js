@@ -11,8 +11,9 @@ import finScreen from '../Demo_photos/FinancialAna.png'
 
 export default function AnalyticsProjects() {
   return (
-    <div >
-      <h1 id="tit" className='lineUp'>ANALYTICS PROJECTS</h1>
+    <div className="page-shell projects-page">
+      <h1 className="page-title lineUp">ANALYTICS PROJECTS</h1>
+      <p className="page-subtitle">Dashboards and quantitative analysis projects.</p>
 
       <Columns id="col">
 

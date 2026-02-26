@@ -11,14 +11,14 @@ const styles = {
 
 export default function Home() {
   return (
-    <div className='has-background-black'>
+    <div className="home-page page-shell">
     <div className="hero is-fullheight ">
               
         <div className=" hero-body">
             <div className="container">
               <div className='img-cont'>
-                <figure className="image center">
-                    <img src={personalPhoto} alt="" style={styles.img}/>
+                <figure className="image center home-image-frame">
+                    <img src={personalPhoto} alt="" style={styles.img} className="home-image"/>
                 </figure>
               </div>
             </div>
@@ -26,9 +26,9 @@ export default function Home() {
             
         </div>
         <div className="container ">
-            <h1 className="center is-size-1 has-text-white has-text-weight-bold is-family-sans-serif">Nico Pasqualini
+            <h1 className="center is-size-1 home-title">Nico Pasqualini
             </h1>
-            <h2 className="has-text-white has-text-centered home-subtitle">Data Analyst</h2>
+            <h2 className="has-text-centered home-subtitle">Data Analyst</h2>
         </div>
         <div>
 

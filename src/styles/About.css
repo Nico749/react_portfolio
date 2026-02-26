@@ -1,7 +1,12 @@
-.white{
-    color: silver;
-    font-size: 50px;
-    text-align: center;
-    font-weight: bold;
+.about-hero {
+  background: transparent;
 }
 
+.about-copy {
+  background: rgba(224, 234, 236, 0.08);
+  border: 1px solid rgba(135, 195, 205, 0.35);
+  border-radius: 18px;
+  padding: 1.7rem;
+  line-height: 1.75;
+  box-shadow: 0 18px 34px rgba(0, 0, 0, 0.24);
+}

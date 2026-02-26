@@ -1,44 +1,59 @@
-#cardtitle, #cardbody, #cardlink{
-    background-color: #d9d9d9;
-    color:black;
+.page-shell.projects-page {
+  background:
+    radial-gradient(circle at 20% 12%, rgba(84, 202, 230, 0.2), transparent 33%),
+    radial-gradient(circle at 80% 4%, rgba(32, 108, 200, 0.22), transparent 35%),
+    #3f4748;
 }
 
-#cardtitle, #cardbody{
-    text-align: center;
-}
-
-#cardlink{
-    display: inline-block;
-    text-decoration: underline;
-}
-
-#cardtitle{
-    font-weight: bold;
-}
-
-#cardtitle:hover{
-    text-decoration: underline;
+#col {
+  margin: 1rem auto 0;
+  max-width: 1160px;
+  padding: 0 1rem 2rem;
 }
 
 .card {
-    background-color: #d9d9d9;
+  background-color: #e4eaeb;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.26);
+  transition: transform 180ms ease, box-shadow 180ms ease;
 }
-.techlist {
-    background-color: #d9d9d9;
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 22px 38px rgba(0, 0, 0, 0.33);
 }
+
+#cardtitle,
+#cardbody,
+#cardlink,
+.techlist,
 .tech {
-    background-color: #d9d9d9;
-    font-style: italic;
-    font-weight: bold;
+  background-color: #e4eaeb;
+  color: #152024;
 }
 
-
-  .card:hover {
-    transform: scale(1.02);
-    transition: 200ms transform ease-in-out;
-  } 
-
-#col{
-    margin-top: 30px;
+#cardtitle,
+#cardbody {
+  text-align: center;
 }
 
+#cardtitle {
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+#cardtitle:hover {
+  text-decoration: underline;
+}
+
+#cardlink {
+  display: inline-block;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.tech {
+  font-style: italic;
+  font-weight: 700;
+}

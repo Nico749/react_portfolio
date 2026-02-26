@@ -14,8 +14,9 @@ import graphqlScreen from '../Demo_photos/GraphQL.png'
 
 export default function Projects() {
   return (
-    <div >
-      <h1 id="tit" className='lineUp'>WEB DEV PROJECTS</h1>
+    <div className="page-shell projects-page">
+      <h1 className="page-title lineUp">WEB DEV PROJECTS</h1>
+      <p className="page-subtitle">Selected full-stack applications and engineering work.</p>
 
       <Columns id="col">
 

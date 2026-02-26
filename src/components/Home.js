@@ -28,7 +28,7 @@ export default function Home() {
         <div className="container ">
             <h1 className="center is-size-1 has-text-white has-text-weight-bold is-family-sans-serif">Nico Pasqualini
             </h1>
-            <h2 className="center has-text-white">Data Analyst</h2>
+            <h2 className="has-text-white has-text-centered home-subtitle">Data Analyst</h2>
         </div>
         <div>
 

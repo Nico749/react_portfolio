@@ -10,7 +10,7 @@ export default function About() {
       <h1 className="page-title lineUp">ABOUT</h1>
       <p className="page-subtitle">Background, training, and the path into data analytics.</p>
 
-      <section className="hero is-fullheight about-hero">
+      <section className="hero about-hero">
 
         <div className=" hero-body">
           <div className="columns">

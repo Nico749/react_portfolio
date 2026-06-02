@@ -15,15 +15,24 @@ export default function About() {
         <div className=" hero-body">
           <div className="columns">
             <div className="column is-8 is-offset-2 about-copy has-text-white is-size-5">
-              Hi! I'm Nico and I am a Data Analyst.
-              Even if I have always been interested in coding and data, my background is a bit uncommon
-              because during the first years of university I studied economics and then I graduated from University of Bologna in 2018 with a
-              Master's Degree in Finance. After that I started my journey in Australia where
-              I achieved a Master in Business Administration at Kaplan Business School, Melbourne.
-              During the Master, I got into project management aspects that fascinated me so whilst there
-              I completed various extra courses regarding that, in a way to combine
-              economics and management skills.
-              Once the Master was over, I completed a Monash University Coding Bootcamp and then I started my journey in data analytics at NewsPerform Australia.
+              <p>
+                Hi, I'm Nico, a data analyst with a background that blends finance,
+                business, project management, and coding.
+              </p>
+              <p>
+                I have always been interested in data and technology, but my path into
+                analytics began with economics. I graduated from the University of Bologna
+                in 2018 with a Master's Degree in Finance, then moved to Australia to
+                complete a Master of Business Administration at Kaplan Business School in
+                Melbourne.
+              </p>
+              <p>
+                During my MBA, I became especially interested in project management and
+                completed additional courses to connect my economics and management
+                experience with more practical delivery skills. After graduating, I
+                completed the Monash University Coding Bootcamp and began my data analytics
+                journey at NewsPerform Australia.
+              </p>
             </div>
           </div>
         </div>

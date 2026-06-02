@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react_portfolio/static/css/main.a6e3e10d.css",
-    "main.js": "/react_portfolio/static/js/main.da21f9c6.js",
+    "main.css": "/react_portfolio/static/css/main.75463a77.css",
+    "main.js": "/react_portfolio/static/js/main.98be1ffa.js",
     "static/media/Event_finder.png": "/react_portfolio/static/media/Event_finder.46a70c095b4614a0b87d.png",
     "static/media/Resume_Pasqualini.pdf": "/react_portfolio/static/media/Resume_Pasqualini.e78e054b9a0cf9930b04.pdf",
     "static/media/pet_homepage.png": "/react_portfolio/static/media/pet_homepage.2536316a79d1dd8fbdd8.png",
@@ -12,11 +12,11 @@
     "static/media/Screenshot_sql.png": "/react_portfolio/static/media/Screenshot_sql.69439ae0f5c62f9cf3e4.png",
     "static/media/FinancialAna.png": "/react_portfolio/static/media/FinancialAna.29973b1a681b4e8384e1.png",
     "index.html": "/react_portfolio/index.html",
-    "main.a6e3e10d.css.map": "/react_portfolio/static/css/main.a6e3e10d.css.map",
-    "main.da21f9c6.js.map": "/react_portfolio/static/js/main.da21f9c6.js.map"
+    "main.75463a77.css.map": "/react_portfolio/static/css/main.75463a77.css.map",
+    "main.98be1ffa.js.map": "/react_portfolio/static/js/main.98be1ffa.js.map"
   },
   "entrypoints": [
-    "static/css/main.a6e3e10d.css",
-    "static/js/main.da21f9c6.js"
+    "static/css/main.75463a77.css",
+    "static/js/main.98be1ffa.js"
   ]
 }

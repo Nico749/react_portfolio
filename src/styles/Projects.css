@@ -1,23 +1,18 @@
 .page-shell.projects-page {
-  --project-bg: #f2f6f9;
   --project-card: #ffffff;
   --project-text: #11212c;
   --project-muted: #4e636f;
   --project-accent: #0b7a8e;
   --project-accent-soft: #d7edf2;
-  background:
-    radial-gradient(circle at 8% 8%, rgba(13, 112, 140, 0.16), transparent 32%),
-    radial-gradient(circle at 90% 2%, rgba(12, 82, 138, 0.14), transparent 30%),
-    var(--project-bg);
 }
 
 .projects-page .page-title {
-  color: #14313f;
-  text-shadow: none;
+  color: #dfe8ea;
+  text-shadow: 0 0 24px rgba(0, 220, 205, 0.22);
 }
 
 .projects-page .page-subtitle {
-  color: #35505d;
+  color: rgba(223, 232, 234, 0.88);
 }
 
 #col {
@@ -43,16 +38,16 @@
   flex-direction: column;
   background: linear-gradient(180deg, #ffffff 0%, #f8fbfd 100%);
   border: 1px solid #d8e6ec;
-  border-radius: 14px;
+  border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 14px 32px rgba(19, 43, 56, 0.12);
+  box-shadow: 0 18px 34px rgba(0, 0, 0, 0.24);
   transition: transform 170ms ease, box-shadow 170ms ease, border-color 170ms ease;
 }
 
 .projects-page .card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 22px 42px rgba(19, 43, 56, 0.18);
-  border-color: #b8d9e4;
+  box-shadow: 0 24px 44px rgba(0, 0, 0, 0.32);
+  border-color: rgba(135, 195, 205, 0.72);
 }
 
 .projects-page .card .card-image img {

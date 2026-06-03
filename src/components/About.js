@@ -14,7 +14,7 @@ export default function About() {
 
         <div className=" hero-body">
           <div className="columns">
-            <div className="column is-8 is-offset-2 about-copy has-text-white is-size-5">
+            <div className="column about-copy has-text-white is-size-5">
               <p>
                 Hi, I'm Nico, a data analyst with a background that blends finance,
                 business, project management, and coding.
@@ -31,7 +31,8 @@ export default function About() {
                 completed additional courses to connect my economics and management
                 experience with more practical delivery skills. After graduating, I
                 completed the Monash University Coding Bootcamp and began my data analytics
-                journey at NewsPerform Australia.
+                journey at NewsPerform Australia, where I have spent the last few years developing 
+                my expertise in analytics, reporting, and data-driven decision-making.
               </p>
             </div>
           </div>

@@ -62,7 +62,7 @@ export default function Contacts() {
   };
 
   return (
-    <div className="hero is-fullheight page-shell contacts-page">
+    <div className="hero page-shell contacts-page">
       <div className="contacts-layout">
         <h1 className="page-title lineUp contacts-title">CONTACTS</h1>
         <p className="page-subtitle">Choose any channel below to get in touch.</p>

@@ -2,23 +2,18 @@ import React from 'react';
 import Footer from './Footer'
 import '../styles/Home.css';
 import personalPhoto from '../Demo_photos/personal-photo-modified.png'
-const styles = {
-  img: {
-    maxWidth:  '400px',
-  }
-};
 
 
 export default function Home() {
   return (
     <div className="home-page page-shell">
-    <div className="hero is-fullheight ">
+    <div className="hero home-hero">
               
         <div className=" hero-body">
             <div className="container">
               <div className='img-cont'>
                 <figure className="image center home-image-frame">
-                    <img src={personalPhoto} alt="" style={styles.img} className="home-image"/>
+                    <img src={personalPhoto} alt="" className="home-image"/>
                 </figure>
               </div>
             </div>

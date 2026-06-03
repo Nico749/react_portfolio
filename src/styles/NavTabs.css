@@ -18,25 +18,58 @@
 }
 
 .navbar-start ul {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
   margin: 0;
-  padding: 0;
+  padding: 0.55rem 0.8rem;
   list-style: none;
   background: transparent;
 }
 
-.navbar-item {
+a.navbar-item.nav-link {
   color: #e6eff1 !important;
-  background-color: #5b6362;
-  border-radius: 0 0 10px 10px;
-  margin-right: 0.35rem;
+  min-height: 2.35rem;
+  padding: 0.55rem 0.95rem;
+  background: rgba(255, 255, 255, 0.08) !important;
+  border: 1px solid rgba(230, 239, 241, 0.14);
+  border-radius: 999px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
   font-weight: 600;
-  letter-spacing: 0.02em;
+  letter-spacing: 0;
+  line-height: 1;
+  transition: background-color 160ms ease, border-color 160ms ease, box-shadow 160ms ease, color 160ms ease, transform 160ms ease;
+}
+
+a.navbar-item.nav-link:hover,
+a.navbar-item.nav-link:focus {
+  color: #ffffff !important;
+  background-color: rgba(26, 170, 237, 0.18) !important;
+  border-color: rgba(26, 170, 237, 0.72);
+  box-shadow: 0 8px 18px rgba(26, 170, 237, 0.16);
+  transform: translateY(-1px);
+}
+
+a.navbar-item.nav-link:focus-visible {
+  outline: 2px solid rgba(26, 170, 237, 0.82);
+  outline-offset: 3px;
+}
+
+a.navbar-item.nav-link.active,
+a.navbar-item.nav-link.active:hover,
+a.navbar-item.nav-link.active:focus {
+  color: #ffffff !important;
+  background-color: #1aaaed !important;
+  border-color: #60cffd !important;
+  box-shadow: 0 10px 22px rgba(26, 170, 237, 0.28);
 }
 
 .navbar-burger {
   background-color: #3a4344;
   color: #e6eff1;
+  border: 0;
   border-radius: 10px;
+  cursor: pointer;
   margin: 0.4rem;
   transition: background-color 160ms ease, transform 160ms ease;
 }
@@ -66,7 +99,7 @@
   .navbar-menu {
     background-color: #3a4344;
     margin: 0;
-    padding: 0.4rem 0.5rem 0.55rem;
+    padding: 0.4rem 0.75rem 0.7rem;
     border: 0;
     border-radius: 0;
     box-shadow: none;
@@ -83,8 +116,18 @@
   .navbar-item {
     width: 100%;
     margin: 0.2rem 0 0;
-    border-radius: 10px;
+    border-radius: 12px;
     justify-content: center;
+  }
+
+  .navbar-start ul {
+    flex-direction: column;
+    gap: 0.35rem;
+    padding: 0;
+  }
+
+  .navbar-start li {
+    width: 100%;
   }
 }
 

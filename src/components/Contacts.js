@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { Columns } from 'react-bulma-components';
 import '../styles/Contacts.css';
 import '../styles/PortfolioContainer.css';
-import Pdf from '../Demo_photos/Resume_Pasqualini.pdf';
+import Pdf from '../Demo_photos/Nico Pasqualini Resume.pdf';
 
 // removed phone number, linkedin profile, github link and email address
 export default function Contacts() {

@@ -7,6 +7,8 @@ import '../styles/Projects.css'
 import '../styles/PortfolioContainer.css'
 import covidScreen from '../Demo_photos/CovidAnalysys.png'
 import finScreen from '../Demo_photos/FinancialAna.png'
+import booksScreen from '../Demo_photos/booksTableau.png'
+
 
 
 export default function AnalyticsProjects() {
@@ -16,6 +18,92 @@ export default function AnalyticsProjects() {
       <p className="page-subtitle">Dashboards and quantitative analysis projects.</p>
 
       <Columns id="col">
+        <Columns.Column>
+          <Card style={{ width: 300, margin: 'auto' }}>
+            <Card.Image
+              className=" card-image"
+              size="16by9"
+              src={booksScreen}
+            />
+
+            <Card.Content>
+              <a
+                href="https://public.tableau.com/views/Covid_Analysis_16675352455890/CovidCrisisOverall?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
+                target="_blank"
+                rel="noopener noreferrer"
+                id='cardtitle'
+                className=' is-size-3 has-text-black'
+                onClick={() => window.dataLayer.push({
+                  event: 'title_click',
+                  eventProps: {
+                    category: "analytics",
+                    label: "covid ",
+                    page: window.location.href.split('#').pop()
+                  }
+                })}
+              >
+                BOOKS DATA ANALYSIS
+              </a>
+
+              <p id='cardbody' className="is-size-5 has-text-black">
+                This project analyses book and user data to uncover trends and patterns over time. The dashboard is divided into two main areas—Books and Users—and explores key metrics such as ratings, publication trends, authors, and user age demographics. 
+                The data was prepared and transformed using Google Sheets and Snowflake, and the insights were visualised in Tableau.<br></br>
+                <a
+                  id="cardlink"
+                  href="https://github.com/Nico749/SQL_Covid/blob/main/SQLCovid.sql"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => window.dataLayer.push({
+                    event: 'project_click',
+                    eventProps: {
+                      category: "analytics",                        
+                      label: "books",
+                      page: window.location.href.split('#').pop()
+                    }
+                  })}
+                >
+                  Click
+                </a> to see the SQL file or have a look at the <a
+                  id="cardlink"
+                  href="https://public.tableau.com/app/profile/nick3159/viz/BooksData_17804528945430/Dashboard1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => window.dataLayer.push({
+                    event: 'project_click',
+                    eventProps: {
+                      category: "analytics",                        
+                      label: "books",
+                      page: window.location.href.split('#').pop()
+                    }
+                  })}
+                > dashboard</a>. <br></br>
+                <a
+                  id="cardlink"
+                  href="https://github.com/Nico749/SQL_Covid"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  onClick={() => window.dataLayer.push({
+                    event: 'github_click',
+                    eventProps: {
+                      category: "analytics",                        
+                      label: "covid",
+                      page: window.location.href.split('#').pop()
+                    }
+                  })}
+                >
+                  Here
+                </a> you can see the Github repo.<br></br>
+                Built with:
+                <ul className='techlist'>
+                  <li className='tech'>- Snowflake</li><br></br>
+                  <li className='tech'>- Tableau</li><br></br>
+                </ul>
+
+              </p>
+            </Card.Content>
+          </Card>
+        </Columns.Column>
+
         <Columns.Column>
           <Card style={{ width: 300, margin: 'auto' }}>
             <Card.Image
@@ -96,6 +184,7 @@ export default function AnalyticsProjects() {
                   <li className='tech'>- SQL</li><br></br>
                   <li className='tech'>- Tableau</li><br></br>
                 </ul>
+
               </p>
             </Card.Content>
           </Card>

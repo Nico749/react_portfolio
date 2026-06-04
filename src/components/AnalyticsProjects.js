@@ -46,24 +46,9 @@ export default function AnalyticsProjects() {
               </a>
 
               <p id='cardbody' className="is-size-5 has-text-black">
-                This project analyses book and user data to uncover trends and patterns over time. The dashboard is divided into two main areas—Books and Users—and explores key metrics such as ratings, publication trends, authors, and user age demographics. 
+                This project analyses book and user data to uncover trends and patterns over time. The dashboard is divided into two main areas—Books and Users—and explores key metrics such as ratings, publication trends, authors, and user age demographics.<br></br> 
                 The data was prepared and transformed using Google Sheets and Snowflake, and the insights were visualised in Tableau.<br></br>
-                <a
-                  id="cardlink"
-                  href="https://github.com/Nico749/SQL_Covid/blob/main/SQLCovid.sql"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onClick={() => window.dataLayer.push({
-                    event: 'project_click',
-                    eventProps: {
-                      category: "analytics",                        
-                      label: "books",
-                      page: window.location.href.split('#').pop()
-                    }
-                  })}
-                >
-                  Click
-                </a> to see the SQL file or have a look at the <a
+                Click to have a look at the <a
                   id="cardlink"
                   href="https://public.tableau.com/app/profile/nick3159/viz/BooksData_17804528945430/Dashboard1"
                   target="_blank"
@@ -77,26 +62,11 @@ export default function AnalyticsProjects() {
                     }
                   })}
                 > dashboard</a>. <br></br>
-                <a
-                  id="cardlink"
-                  href="https://github.com/Nico749/SQL_Covid"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onClick={() => window.dataLayer.push({
-                    event: 'github_click',
-                    eventProps: {
-                      category: "analytics",                        
-                      label: "covid",
-                      page: window.location.href.split('#').pop()
-                    }
-                  })}
-                >
-                  Here
-                </a> you can see the Github repo.<br></br>
                 Built with:
                 <ul className='techlist'>
                   <li className='tech'>- Snowflake</li><br></br>
                   <li className='tech'>- Tableau</li><br></br>
+                  <li className='tech'>- Google Sheets</li><br></br>
                 </ul>
 
               </p>
